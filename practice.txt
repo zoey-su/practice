@@ -3,5 +3,8 @@ git init
 git add 檔名 或以.代表全部
 git commit -m "修改說明"
 git branch -M 分支名稱   ----創建分支
-git remote add origin https://github.com/zoey-su/practice.git
-git push -u origin main
+git remote add origin https://github.com/zoey-su/practice.git  ----與github做連結
+git push -u origin main ----"-u origin a" 預設a為目前使用分支 下次只需git push 即會推到a分支上
+
+git clone https://github.com/zoey-su/practice.git ----拉取資料
+git pull -----資料更新
