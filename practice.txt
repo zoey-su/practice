@@ -1,0 +1,7 @@
+
+git init
+git add 檔名 或以.代表全部
+git commit -m "修改說明"
+git branch -M 分支名稱   ----創建分支
+git remote add origin https://github.com/zoey-su/practice.git
+git push -u origin main
